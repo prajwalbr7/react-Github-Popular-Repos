@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container-GithubPopular {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 30px;
+}
+.heading-github {
+  font-family: 'Lobster';
+  font-size: 40px;
+  font-weight: bold;
+  color: #0f172a;
+}
+.ul-style-github {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+.ul-style-github-second {
+  width: 70%;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.no-internet {
+  height: 300px;
+  width: 100%;
+}
+.no-internet-heading {
+  font-family: 'Lobster';
+  font-size: 40px;
+  font-weight: bold;
+  color: #1e293b;
+  text-align: center;
+}
+.noInternet-Container {
+  width: 70%;
+}
